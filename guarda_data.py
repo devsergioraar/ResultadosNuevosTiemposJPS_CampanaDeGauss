@@ -44,7 +44,7 @@ class JPS:
        
     def escritor(self, val):
         #print(val)
-        with open('readme.txt', 'a') as f:
+        with open('readme.csv', 'a') as f:
             f.write(str(val)+"\n")
 
 obj = JPS()
